@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header id="header">
         <div class="header__wrap">
             <a href="#!" class="header__logo">
                 <img src="./img/svg/logo-plane.svg" alt="plane" class="header__logo-pic">
@@ -103,12 +103,24 @@
         <section id="gallery">
             <div class="wrapper">
                 <div class="gallery__wrap">
-                    <img src="./img/gallery-night-mountains.jpg" alt="" class="gallery__image-pic">
-                    <img src="./img/gallery-plane.jpg" alt="" class="gallery__image-pic">
-                    <img src="./img/gallery-sunrise.jpg" alt="" class="gallery__image-pic">
-                    <img src="./img/gallery-church.jpg" alt="" class="gallery__image-pic">
-                    <img src="./img/gallery-forest.jpg" alt="" class="gallery__image-pic">
-                    <img src="./img/gallery-nature.jpg" alt="" class="gallery__image-pic">
+                    <a href="./img/gallery-night-mountains.jpg" class="gallery__image" target="_blank">
+                        <img src="./img/gallery-night-mountains.jpg" alt="night mountains" class="gallery__image-pic">
+                    </a>
+                    <a href="./img/gallery-plane.jpg" class="gallery__image" target="_blank">
+                        <img src="./img/gallery-plane.jpg" alt="" class="gallery__image-pic">
+                    </a>
+                    <a href="./img/gallery-sunrise.jpg" class="gallery__image" target="_blank">
+                        <img src="./img/gallery-sunrise.jpg" alt="" class="gallery__image-pic">
+                    </a>
+                    <a href="./img/gallery-church.jpg" class="gallery__image" target="_blank">
+                        <img src="./img/gallery-church.jpg" alt="" class="gallery__image-pic">
+                    </a>
+                    <a href="./img/gallery-forest.jpg" class="gallery__image" target="_blank">
+                        <img src="./img/gallery-forest.jpg" alt="" class="gallery__image-pic">
+                    </a>
+                    <a href="./img/gallery-nature.jpg" class="gallery__image" target="_blank">
+                        <img src="./img/gallery-nature.jpg" alt="" class="gallery__image-pic">
+                    </a>
                 </div>
             </div>
         </section>
@@ -131,7 +143,52 @@
                 </div>
             </div>
         </section>
+
+        <section id="about">
+            <div class="wrapper">
+                <div class="about__wrap">
+                    <img src="./img/about-airport.jpg" alt="airport" class="about__image">
+                    <div class="about__text">
+                        <h2 class="about__title">About Us</h2>
+                        <p class="about__info">JetSet Journey is a premier travel agency located in Kherson, 65. With a passion for creating unforgettable travel
+                        experiences, we specialize in curating personalized itineraries that cater to the unique preferences and needs of our
+                        clients.
+                        <br><br>
+                        Our team of experienced travel experts is dedicated to providing exceptional service and ensuring every detail of your
+                        trip is meticulously planned. Whether you're seeking a relaxing beach getaway, an adventurous safari, or a cultural
+                        exploration, we are here to turn your travel dreams into reality. Trust JetSet Journey to deliver a seamless and
+                        unforgettable journey from start to finish.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer">
+        <div class="footer__wrap">
+            <h4 class="footer__title">
+                JetSet Journey
+            </h4>
+            <div class="footer__media">
+                <a href="#!" class="footer__link">
+                    <img src="./img/svg/media-instagram-white.svg" alt="Instagram" class="footer__link-pic">
+                    <p class="footer__link-caption">Instagram</p>
+                </a>
+                <a href="#!" class="footer__link">
+                    <img src="./img/svg/media-whatsapp-white.svg" alt="WhatsApp" class="footer__link-pic">
+                    <p class="footer__link-caption">WhatsApp</p>
+                </a>
+                <a href="#!" class="footer__link">
+                    <img src="./img/svg/media-messenger-white.svg" alt="Messenger" class="footer__link-pic">
+                    <p class="footer__link-caption">Messanger</p>
+                </a>
+                <a href="#!" class="footer__link">
+                    <img src="./img/svg/media-google-white.svg" alt="Google" class="footer__link-pic">
+                    <p class="footer__link-caption">Google</p>
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="./js/script.js"></script>
 </body>
 </html>
