@@ -19,9 +19,15 @@ img {
   vertical-align: middle;
 }
 
+button {
+  cursor: pointer;
+  color: #FFF;
+  border: none;
+}
+
 :root {
-  --midnight-blue:#002245;
-  --dark-blue:#173154;
+  --dark-blue:#334970;
+  --night-blue:#173154;
   --steel-blue:#305B78;
   --sky-blue:#56a3eb;
   --light-blue: #D4EAF7;
@@ -115,7 +121,7 @@ p {
   transition: all 0.3s;
 }
 #header.active {
-  background: #334970;
+  background: var(--dark-blue);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -161,10 +167,12 @@ p {
 
 .header__link {
   position: relative;
+  font-weight: 500;
+  transition: color 0.2s;
 }
 
 .header__link:hover {
-  color: var(--light-blue);
+  color: var(--midnight-blue);
 }
 
 .header__link::before {
@@ -175,7 +183,7 @@ p {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: var(--light-blue);
+  background-color: var(--midnight-blue);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -184,23 +192,16 @@ p {
   transform: scaleX(1);
 }
 
-.header__selector {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 3px;
+.header__travel {
+  font-weight: 500;
+  padding: 10px 14px;
+  background-color: transparent;
+  border: #FFF 2px solid;
+  transition: all 0.3s;
 }
 
-.header__language {
-  display: none;
-}
-
-#triangle {
-  width: 0px;
-  height: 0px;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 6px solid #FFF;
+.header__travel:hover {
+  background-color: var(--midnight-blue);
 }
 
 #vertical-line {
@@ -233,7 +234,7 @@ p {
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.25) inset;
 }
 
@@ -286,18 +287,15 @@ p {
 }
 
 .description__book {
-  cursor: pointer;
-  color: #FFF;
   font-size: 18px;
   padding: 12px 16px;
   border-radius: 8px;
-  background-color: var(--dark-blue);
-  border: transparent 2px solid;
+  background-color: var(--night-blue);
+  border: var(--night-blue) 2px solid;
   transition: all 0.3s;
 }
 .description__book:hover {
-  color: var(--dark-blue);
-  border: var(--dark-blue) 2px solid;
+  color: var(--night-blue);
   background-color: #FFF;
 }
 
@@ -436,4 +434,12 @@ p {
 .footer__link {
   display: flex;
   gap: 8px;
+  transition: opacity 0.2s;
+}
+.footer__link:hover {
+  opacity: 0.7;
+}
+
+.footer__link-caption {
+  font-weight: 500;
 }/*# sourceMappingURL=styles.css.map */
