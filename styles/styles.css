@@ -170,11 +170,9 @@ p {
   font-weight: 500;
   transition: color 0.2s;
 }
-
 .header__link:hover {
-  color: var(--midnight-blue);
+  color: var(--sky-blue);
 }
-
 .header__link::before {
   content: "";
   position: absolute;
@@ -183,11 +181,10 @@ p {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: var(--midnight-blue);
+  background-color: var(--sky-blue);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-
 .header__link:hover::before {
   transform: scaleX(1);
 }
@@ -196,12 +193,13 @@ p {
   font-weight: 500;
   padding: 10px 14px;
   background-color: transparent;
-  border: #FFF 2px solid;
+  border: #FFF 1px solid;
+  border-radius: 4px;
   transition: all 0.3s;
 }
-
 .header__travel:hover {
-  background-color: var(--midnight-blue);
+  background-color: var(--night-blue);
+  border: var(--night-blue) 1px solid;
 }
 
 #vertical-line {
@@ -295,8 +293,8 @@ p {
   transition: all 0.3s;
 }
 .description__book:hover {
-  color: var(--night-blue);
-  background-color: #FFF;
+  background-color: var(--dark-blue);
+  border: #FFF 2px solid;
 }
 
 .description__title {
@@ -361,7 +359,7 @@ p {
 .gallery__image-pic {
   cursor: pointer;
   width: 100%;
-  height: 500px;
+  height: 490px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 16px;
@@ -379,7 +377,21 @@ p {
   padding: 120px 32px;
 }
 
-.feedback__text {
+.slider {
+  position: relative;
+  min-width: 0;
+  padding: 0 85px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider__text {
   margin-bottom: 24px;
 }
 
