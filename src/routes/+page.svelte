@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 <script>
 	import Footer from '../components/Footer.svelte';
 	import Header from '../components/Header.svelte';
 </script>
-=======
-<style>
-	@import '/public/styles/styles.css';
-</style>
->>>>>>> bbebd1e6848503e34b1de4dca49d0455742f3564
 
 <head>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,41 +12,14 @@
 	/>
 </head>
 
-<<<<<<< HEAD
 <Header />
-=======
-<header id="header">
-	<div class="header__wrap">
-		<a href="./index.html#intro" class="header__logo">
-			<img src="/icons/logo-plane.svg" alt="plane" class="header__logo-pic" />
-			<div class="header__logo-text">
-				<h4 class="header__logo-name">JetSet Journey</h4>
-				<p class="header__logo-slogan">Where Dreams Take Flight</p>
-			</div>
-		</a>
-		<nav class="header__nav">
-			<a href="#intro" class="header__link">Main</a>
-			<a href="#description" class="header__link">Services</a>
-			<a href="#about" class="header__link">About</a>
-			<a href="#!" class="header__link">FAQ</a>
-			<a href="./views/contact-us.html" class="header__link">Contact Us</a>
-		</nav>
-		<div id="vertical-line"></div>
-		<button class="header__travel">Plan your trip</button>
-	</div>
-</header>
->>>>>>> bbebd1e6848503e34b1de4dca49d0455742f3564
 
 <main class="main">
 	<section id="intro">
 		<div class="wrapper-full">
 			<div class="intro__wrap">
 				<div class="intro__image">
-<<<<<<< HEAD
 					<img src="/images/intro-village.jpg" class="intro__image-pic" alt="village" />
-=======
-					<img src="/images/intro-village.png" class="intro__image-pic" alt="village" />
->>>>>>> bbebd1e6848503e34b1de4dca49d0455742f3564
 				</div>
 				<div class="intro__text">
 					<h1 class="intro__text-title">Discover Ukraine:</h1>
@@ -202,7 +169,6 @@
 	</section>
 </main>
 
-<<<<<<< HEAD
 <Footer />
 
 <body>
@@ -214,34 +180,3 @@
 <style>
 	@import '/styles/styles.css';
 </style>
-=======
-<footer id="footer">
-	<div class="footer__wrap">
-		<h4 class="footer__title">JetSet Journey</h4>
-		<div class="footer__media">
-			<a href="#!" class="footer__link">
-				<img src="/icons/media-instagram-white.svg" alt="Instagram" class="footer__link-pic" />
-				<p class="footer__link-caption">Instagram</p>
-			</a>
-			<a href="#!" class="footer__link">
-				<img src="/icons/media-whatsapp-white.svg" alt="WhatsApp" class="footer__link-pic" />
-				<p class="footer__link-caption">WhatsApp</p>
-			</a>
-			<a href="#!" class="footer__link">
-				<img src="/icons/media-messenger-white.svg" alt="Messenger" class="footer__link-pic" />
-				<p class="footer__link-caption">Messanger</p>
-			</a>
-			<a href="#!" class="footer__link">
-				<img src="/icons/media-google-white.svg" alt="Google" class="footer__link-pic" />
-				<p class="footer__link-caption">Google</p>
-			</a>
-		</div>
-	</div>
-</footer>
-
-<body>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" />
-    <script src="/src/scripts/slick.min.js" />
-    <script src="/src/scripts/script.js" />
-</body>
->>>>>>> bbebd1e6848503e34b1de4dca49d0455742f3564
