@@ -1,7 +1,15 @@
-```git clone https://github.com/Bogdan8282/jetset-travel-agency```
+```console
+git clone https://github.com/Bogdan8282/jetset-travel-agency
+```
 
-```cd project_directory```
+```console
+cd project_directory
+```
 
-```npm i```
+```console
+npm i
+```
 
-```npm run dev -- --open```
+```console
+npm run dev -- --open
+```
