@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .DS_Store
 node_modules
 /build
@@ -11,9 +10,3 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 *.css.map
 *sass
-=======
-*.css.map
-*.sass
-temp
-git
->>>>>>> b08dc6d01773cb4dfb455434e30279895c22982b
